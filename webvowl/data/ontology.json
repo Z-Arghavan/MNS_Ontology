@@ -1,0 +1,1299 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://omv.ontoware.org/2005/05/ontology", "https://w3id.org/digitalconstruction/0.5/Agents", "http://www.w3.org/2000/01/rdf-schema", "http://example.org/mns", "http://www.w3.org/2001/XMLSchema", "https://www.niso.org/standards-committees/ssos/ssos01.owl", "http://xmlns.com/foaf/0.1", "https://w3id.org/i40/sto" ],
+    "iri" : "http://example.org/mns",
+    "version" : "1.1",
+    "author" : [ "Goran Sibenik", "Arghavan Akbarieh" ],
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/licenses/by/4.0/",
+        "type" : "iri"
+      }, {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/licenses/by/4.0/",
+        "type" : "iri"
+      } ],
+      "priorVersion" : [ {
+        "identifier" : "priorVersion",
+        "language" : "undefined",
+        "value" : "1.0",
+        "type" : "label"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Goran Sibenik",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Arghavan Akbarieh",
+        "type" : "label"
+      } ],
+      "contributor" : [ {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Marzia Bolpagni",
+        "type" : "label"
+      } ],
+      "attributionName" : [ {
+        "identifier" : "attributionName",
+        "language" : "undefined",
+        "value" : "Arghavan Akbarieh, Goran Sibenik",
+        "type" : "label"
+      } ],
+      "attributionURL" : [ {
+        "identifier" : "attributionURL",
+        "language" : "undefined",
+        "value" : "http://example.org/mns",
+        "type" : "iri"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.1",
+        "type" : "label"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "BIM Standards Landscape Explorer: https://ec-3.org/BIM-Standards-Landscape-Explorer.html",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "9",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/i40/sto#StandardOrganization",
+    "baseIri" : "https://w3id.org/i40/sto",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StandardOrganization",
+      "undefined" : "Standard Organization"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/mns#CEN",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "CEN"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://example.org/mns#Role",
+    "equivalent" : [ "6" ],
+    "baseIri" : "http://example.org/mns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Role",
+      "undefined" : "Role"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/mns#PermitAgency",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "PermitAgency"
+      }
+    }, {
+      "iri" : "http://example.org/mns#Client",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "Client"
+      }
+    }, {
+      "iri" : "http://example.org/mns#Manufacturer",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "Manufacturer"
+      }
+    }, {
+      "iri" : "http://example.org/mns#SoftwareDeveloper",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "SoftwareDeveloper"
+      }
+    }, {
+      "iri" : "http://example.org/mns#ProjectManager",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "ProjectManager"
+      }
+    }, {
+      "iri" : "http://example.org/mns#FacilityManager",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "FacilityManager"
+      }
+    }, {
+      "iri" : "http://example.org/mns#Contractor",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "Contractor"
+      }
+    }, {
+      "iri" : "http://example.org/mns#Designer",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "Designer"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "This class defines Roles within AECO"
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://example.org/mns#Domain",
+    "equivalent" : [ "10" ],
+    "baseIri" : "http://example.org/mns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Domain",
+      "undefined" : "Domain"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/mns#AnchorDomain",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "AnchorDomain"
+      }
+    }, {
+      "iri" : "http://example.org/mns#OtherDomain",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "OtherDomain"
+      }
+    }, {
+      "iri" : "http://example.org/mns#HealthInformationSystem",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "HealthInformationSystem"
+      }
+    }, {
+      "iri" : "http://example.org/mns#TechnicalProductDescription",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "TechnicalProductDescription"
+      }
+    }, {
+      "iri" : "http://example.org/mns#IndustrialAutomation",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "IndustrialAutomation"
+      }
+    }, {
+      "iri" : "http://example.org/mns#BuildingInformationMoelling",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "BuildingInformationMoelling"
+      }
+    }, {
+      "iri" : "http://example.org/mns#FacilityManagement",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "FacilityManagement"
+      }
+    }, {
+      "iri" : "http://example.org/mns#QualityManagement",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "QualityManagement"
+      }
+    }, {
+      "iri" : "http://example.org/mns#Construction",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "Construction"
+      }
+    }, {
+      "iri" : "http://example.org/mns#ProjectManagement",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "ProjectManagement"
+      }
+    }, {
+      "iri" : "http://example.org/mns#GeographicInformationSystem",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "GeographicInformationSystem"
+      }
+    }, {
+      "iri" : "http://example.org/mns#Sustainability",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "Sustainability"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "M&S commitee defined certin domains in order to analyse how digital construction standrads are related to not only BIM, but also other domains. This class has several instances"
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Organization",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organization",
+      "undefined" : "Organization"
+    },
+    "subClasses" : [ "3" ],
+    "attributes" : [ "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "https://w3id.org/digitalconstruction/0.5/Agents#Agent",
+    "baseIri" : "https://w3id.org/digitalconstruction/0.5/Agents",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Agent",
+      "undefined" : "Agent"
+    },
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://example.org/mns#ProjectPhase",
+    "baseIri" : "http://example.org/mns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ProjectPhase",
+      "undefined" : "Project Phase"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/mns#Decommissioning",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "Decommissioning"
+      }
+    }, {
+      "iri" : "http://example.org/mns#OperationMaintenance",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "OperationMaintenance"
+      }
+    }, {
+      "iri" : "http://example.org/mns#StrategicDefinition",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "StrategicDefinition"
+      }
+    }, {
+      "iri" : "http://example.org/mns#ManufacturingConstruction",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "ManufacturingConstruction"
+      }
+    }, {
+      "iri" : "http://example.org/mns#Procurement",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "Procurement"
+      }
+    }, {
+      "iri" : "http://example.org/mns#Design",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "Design"
+      }
+    }, {
+      "iri" : "http://example.org/mns#Handover",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "Handover"
+      }
+    }, {
+      "iri" : "http://example.org/mns#Briefing",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "Briefing"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The project phase instaces are based on RIBA"
+    },
+    "id" : "11"
+  }, {
+    "iri" : "https://w3id.org/i40/sto#Standard",
+    "baseIri" : "https://w3id.org/i40/sto",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Standard",
+      "undefined" : "Standard"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "26",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "1",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#OntologyDomain",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OntologyDomain",
+      "undefined" : "Ontology Domain"
+    },
+    "attributes" : [ "external" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "24",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "50",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://www.niso.org/standards-committees/ssos/ssos01.owl#NormativeReference",
+    "baseIri" : "https://www.niso.org/standards-committees/ssos/ssos01.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NormativeReference",
+      "undefined" : "Normative Reference"
+    },
+    "attributes" : [ "external" ],
+    "id" : "38",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "22",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#Ontology",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ontology",
+      "undefined" : "Ontology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://example.org/mns#Topic",
+    "baseIri" : "http://example.org/mns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Topic",
+      "undefined" : "Topic"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/mns#CommonDataEnvironment",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "CommonDataEnvironment"
+      }
+    }, {
+      "iri" : "http://example.org/mns#InformationModel",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "InformationModel"
+      }
+    }, {
+      "iri" : "http://example.org/mns#BIMExecutionPlan",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "BIMExecutionPlan"
+      }
+    }, {
+      "iri" : "http://example.org/mns#SoftwareImplementation",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "SoftwareImplementation"
+      }
+    }, {
+      "iri" : "http://example.org/mns#InformationDeliverySpecification",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "InformationDeliverySpecification"
+      }
+    }, {
+      "iri" : "http://example.org/mns#GeographicInformationSystem",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "GeographicInformationSystem"
+      }
+    }, {
+      "iri" : "http://example.org/mns#InformationContainer",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "InformationContainer"
+      }
+    }, {
+      "iri" : "http://example.org/mns#DataTemplate",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "DataTemplate"
+      }
+    }, {
+      "iri" : "http://example.org/mns#IFC",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "IFC"
+      }
+    }, {
+      "iri" : "http://example.org/mns#COBie",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "COBie"
+      }
+    }, {
+      "iri" : "http://example.org/mns#DataDictionary",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "DataDictionary"
+      }
+    }, {
+      "iri" : "http://example.org/mns#InformationManagement",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "InformationManagement"
+      }
+    }, {
+      "iri" : "http://example.org/mns#LevelOfInformationNeed",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "LevelOfInformationNeed"
+      }
+    }, {
+      "iri" : "http://example.org/mns#LinkedData",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "LinkedData"
+      }
+    }, {
+      "iri" : "http://example.org/mns#InformationRequirements",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "InformationRequirements"
+      }
+    }, {
+      "iri" : "http://example.org/mns#InformationDeliveryManual",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "InformationDeliveryManual"
+      }
+    }, {
+      "iri" : "http://example.org/mns#InformationDeliveryPlan",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "InformationDeliveryPlan"
+      }
+    }, {
+      "iri" : "http://example.org/mns#ModelViewDefinition",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "ModelViewDefinition"
+      }
+    }, {
+      "iri" : "http://example.org/mns#Classification",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "Classification"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "M&S committee has defined some granual topics that various BIM standards are covering"
+    },
+    "id" : "19"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "46",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "17",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "52",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "PlainLiteral"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "56",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://example.org/mns#ISOTechnicalCommittee",
+    "baseIri" : "http://example.org/mns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ISOTechnicalCommittee",
+      "undefined" : "ISO Technical Committee"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/mns#TC_10/SC_8",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "TC_10/SC_8"
+      }
+    }, {
+      "iri" : "http://example.org/mns#TC_59/SC_13",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "TC_59/SC_13"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A technical committee that belongs to ISO standardisation organisation"
+    },
+    "id" : "29",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://www.niso.org/standards-committees/ssos/ssos01.owl#StandardReference",
+    "baseIri" : "https://www.niso.org/standards-committees/ssos/ssos01.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StandardReference",
+      "undefined" : "Standard Reference"
+    },
+    "subClasses" : [ "38", "33" ],
+    "attributes" : [ "external" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Document",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Document",
+      "undefined" : "Document"
+    },
+    "subClasses" : [ "8" ],
+    "attributes" : [ "external" ],
+    "id" : "42"
+  }, {
+    "iri" : "https://www.niso.org/standards-committees/ssos/ssos01.owl#InformativeReference",
+    "baseIri" : "https://www.niso.org/standards-committees/ssos/ssos01.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InformativeReference",
+      "undefined" : "Informative Reference"
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "https://w3id.org/i40/sto#Domain",
+    "baseIri" : "https://w3id.org/i40/sto",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Domain",
+      "undefined" : "Domain"
+    },
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "10"
+  }, {
+    "iri" : "https://w3id.org/i40/sto#TechnicalCommittee",
+    "baseIri" : "https://w3id.org/i40/sto",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TechnicalCommittee",
+      "undefined" : "Technical Committee"
+    },
+    "subClasses" : [ "40", "29" ],
+    "comment" : {
+      "undefined" : "A technical committee that writes and edits standards"
+    },
+    "attributes" : [ "external" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://example.org/mns#CENTechnicalCommittee",
+    "baseIri" : "http://example.org/mns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CENTechnicalCommittee",
+      "undefined" : "CEN Technical Committee"
+    },
+    "individuals" : [ {
+      "iri" : "http://example.org/mns#CEN/TC_442",
+      "baseIri" : "http://example.org/mns",
+      "labels" : {
+        "IRI-based" : "CEN/TC_442"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "A technical committee that belongs to CEN standardisation organisation"
+    },
+    "id" : "40",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "https://w3id.org/i40/sto#Publication",
+    "baseIri" : "https://w3id.org/i40/sto",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Publication",
+      "undefined" : "Publication"
+    },
+    "subClasses" : [ "16" ],
+    "attributes" : [ "external" ],
+    "id" : "8",
+    "superClasses" : [ "42" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "58",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://w3id.org/i40/sto#abbreviation",
+    "baseIri" : "https://w3id.org/i40/sto",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "abbreviation",
+      "undefined" : "abbreviation"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "abberviation"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://example.org/mns#relatedToRole",
+    "baseIri" : "http://example.org/mns",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "relatedToRole",
+      "undefined" : "related To Role"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "Shows that a publcation or standard is related to an AECO Role"
+    },
+    "attributes" : [ "object" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://example.org/mns#isNormativelyReferencedBy",
+    "inverse" : "13",
+    "baseIri" : "http://example.org/mns",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "isNormativelyReferencedBy",
+      "undefined" : "is Normatively Referenced By"
+    },
+    "superproperty" : [ "14" ],
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://example.org/mns#isISO",
+    "baseIri" : "http://example.org/mns",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "isISO",
+      "undefined" : "is ISO"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "is an ISO standard"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://example.org/mns#implicitlyRelatedToTopic",
+    "baseIri" : "http://example.org/mns",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "implicitlyRelatedToTopic",
+      "undefined" : "implicitly Related To Topic"
+    },
+    "superproperty" : [ "20" ],
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://example.org/mns#hasTitle",
+    "baseIri" : "http://example.org/mns",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "hasTitle",
+      "undefined" : "has Title"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "Title of the Standard"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://example.org/mns#hasFirstPublicationDate",
+    "baseIri" : "http://example.org/mns",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "hasFirstPublicationDate",
+      "undefined" : "has First Publication Date"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "\"First\" publication date ot the the Standard document. This may or may be not the same as the \"has Publication Date\""
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "23"
+  }, {
+    "iri" : "https://w3id.org/i40/sto#hasPublicationDate",
+    "baseIri" : "https://w3id.org/i40/sto",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "hasPublicationDate",
+      "undefined" : "has Publication Date"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "publication date ot the current Standard document"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "25"
+  }, {
+    "range" : "8",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "27"
+  }, {
+    "range" : "30",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "iri" : "https://w3id.org/i40/sto#hasDomain",
+    "baseIri" : "https://w3id.org/i40/sto",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasDomain",
+      "undefined" : "has Domain"
+    },
+    "domain" : "8",
+    "attributes" : [ "object", "external" ],
+    "id" : "31"
+  }, {
+    "range" : "34",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://example.org/mns#references",
+    "baseIri" : "http://example.org/mns",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "references",
+      "undefined" : "references"
+    },
+    "domain" : "8",
+    "subproperty" : [ "13", "36" ],
+    "comment" : {
+      "undefined" : "A publication that is referencing another publication"
+    },
+    "attributes" : [ "object" ],
+    "id" : "35"
+  }, {
+    "range" : "34",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "range" : "30",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "42",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://example.org/mns#isInformativelyReferencedBy",
+    "baseIri" : "http://example.org/mns",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "isInformativelyReferencedBy",
+      "undefined" : "is Informatively Referenced By"
+    },
+    "superproperty" : [ "14" ],
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://example.org/mns#isCEN",
+    "baseIri" : "http://example.org/mns",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "isCEN",
+      "undefined" : "is CEN"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "is a CEN standard"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://example.org/mns#relatedToPhase",
+    "baseIri" : "http://example.org/mns",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "relatedToPhase",
+      "undefined" : "related To Phase"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "Shows that a publcation or standard is related to a Project Phase"
+    },
+    "attributes" : [ "object" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://example.org/mns#essentiallyRelatedToTopic",
+    "baseIri" : "http://example.org/mns",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "essentiallyRelatedToTopic",
+      "undefined" : "essentially Related To Topic"
+    },
+    "superproperty" : [ "20" ],
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://example.org/mns#normativelyReference",
+    "baseIri" : "http://example.org/mns",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "normativelyReference"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://example.org/mns#informativelyReferences",
+    "inverse" : "44",
+    "baseIri" : "http://example.org/mns",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "informativelyReferences"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://example.org/mns#isReferencedBy",
+    "inverse" : "35",
+    "baseIri" : "http://example.org/mns",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "isReferencedBy",
+      "undefined" : "is Referenced By"
+    },
+    "domain" : "8",
+    "subproperty" : [ "44", "12" ],
+    "comment" : {
+      "undefined" : "A publication that is refrenced by another publication"
+    },
+    "attributes" : [ "object" ],
+    "id" : "14"
+  }, {
+    "iri" : "https://w3id.org/i40/sto#hasTechnicalCommittee",
+    "baseIri" : "https://w3id.org/i40/sto",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "hasTechnicalCommittee",
+      "undefined" : "has Technical Committee"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "Specifies the Technical Committee or a Sub-Committee that is responsible for creation and maintenance of a standard"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://example.org/mns#contributesToSDG",
+    "baseIri" : "http://example.org/mns",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "contributesToSDG",
+      "undefined" : "contributed To SDG"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "the Sustainable Development Goals (SDGs) that this standard is related to"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "54"
+  }, {
+    "range" : "19",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "iri" : "https://w3id.org/i40/sto#hasDeveloper",
+    "baseIri" : "https://w3id.org/i40/sto",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "hasDeveloper",
+      "undefined" : "has Developer"
+    },
+    "superproperty" : [ "59" ],
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "The organization that developed this Standard"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "58"
+  }, {
+    "iri" : "https://w3id.org/i40/sto#hasPublisher",
+    "baseIri" : "https://w3id.org/i40/sto",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "hasPublisher",
+      "undefined" : "has Publisher"
+    },
+    "superproperty" : [ "59" ],
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "The organization that published this Standard"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://example.org/mns#relevantlyRelatedToTopic",
+    "baseIri" : "http://example.org/mns",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "relevantlyRelatedToTopic",
+      "undefined" : "relevantly Related To Topic"
+    },
+    "superproperty" : [ "20" ],
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#hasDomain",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "hasDomain",
+      "undefined" : "has Domain"
+    },
+    "domain" : "51",
+    "attributes" : [ "object", "external" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://example.org/mns#hasStandardNumber",
+    "baseIri" : "http://example.org/mns",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "hasStandardNumber",
+      "undefined" : "has Standard Number"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "Number of the Standard"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/maker",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "maker"
+    },
+    "domain" : "1",
+    "subproperty" : [ "58", "60" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://example.org/mns#relatedToTopic",
+    "baseIri" : "http://example.org/mns",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "relatedToTopic",
+      "undefined" : "related To Topic"
+    },
+    "domain" : "8",
+    "subproperty" : [ "18", "61", "48" ],
+    "comment" : {
+      "undefined" : "Shows that a publcation or standard is related to an AECO Topic"
+    },
+    "attributes" : [ "object" ],
+    "id" : "20"
+  }, {
+    "iri" : "https://w3id.org/i40/sto#hasOntology",
+    "baseIri" : "https://w3id.org/i40/sto",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "hasOntology",
+      "undefined" : "has Ontology"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "link to an ontology"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://omv.ontoware.org/2005/05/ontology#URI",
+    "baseIri" : "http://omv.ontoware.org/2005/05/ontology",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "URI",
+      "undefined" : "URI"
+    },
+    "domain" : "51",
+    "comment" : {
+      "undefined" : "The URI of the ontology which is described by this metadata"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "65"
+  } ]
+}
